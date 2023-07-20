@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lora:wght@400;500&family=Open+Sans:wght@800&family=Poppins:wght@200;300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+.nav-section{
+    width: 100%;
+    min-height: 80px;
+    box-shadow: 2px 2px 4px lightgray;
+}
+.nav-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding:20px ;
+    align-items: center;
+}
+.nav-list ul{
+    display: flex;
+    list-style: none;
+}
+.nav-list a{
+text-decoration: none;
+margin-left: 2rem;
+color: #42454A;
+}
+.log-btn{
+    width: 106px;
+    height: 48px;
+    color: #42454A;
+    font-size: 14px;
+    font-weight: 400;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px lightgray;
+    margin-right: 1rem;
+    border: none;
+}
+.sign-btn{
+    width: 106px;
+    height: 48px;
+    color:white;
+    font-size: 14px;
+    font-weight: 400;
+    background: #42454A; 
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px lightgray;
+    border: none;
+}
